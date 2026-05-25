@@ -1,6 +1,6 @@
 name: couldai_user_app
-description: "A new Flutter project."
-publish_to: 'none' 
+description: "DMD - Decisão Muda Destino"
+publish_to: 'none'
 version: 1.0.0+1
 environment:
   sdk: ^3.7.2
@@ -8,7 +8,9 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
-  supabase_flutter: ^2.9.1
+  provider: ^6.1.2
+  fl_chart: ^0.70.2
+  google_fonts: ^6.2.1
 
 dev_dependencies:
   flutter_test:
